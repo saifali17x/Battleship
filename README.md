@@ -2,6 +2,10 @@
 
 A modern, interactive Battleship game built with vanilla JavaScript, featuring drag-and-drop ship placement, beautiful UI, and intelligent computer opponent.
 
+## 🌐 Live Demo
+
+**[https://saifali17x.github.io/Battleship/](https://saifali17x.github.io/Battleship/)**
+
 ## 🎮 Features
 
 - **Interactive Ship Placement**: Drag and drop ships onto your board with visual feedback
@@ -15,23 +19,27 @@ A modern, interactive Battleship game built with vanilla JavaScript, featuring d
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Node.js (for running tests)
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd Battleship
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm start
 ```
@@ -41,6 +49,7 @@ npm start
 ## 🎯 How to Play
 
 ### Ship Placement Phase
+
 1. **Manual Placement**: Drag ships from the dock to your board
    - Click ships to rotate them (horizontal/vertical)
    - Green outline shows valid placement
@@ -48,12 +57,14 @@ npm start
 2. **Auto Placement**: Click "Auto Place All" to let the computer place your ships
 
 ### Gameplay
+
 1. **Your Turn**: Click on the enemy board to attack
 2. **Computer Turn**: The computer will automatically make its move
 3. **Track Progress**: Monitor both fleet status panels
 4. **Win Condition**: Sink all enemy ships before they sink yours
 
 ### Game Controls
+
 - **New Game**: Start a fresh game
 - **Random Ships**: Auto-place ships and start immediately
 - **Clear All**: Remove all placed ships and start over
@@ -76,11 +87,13 @@ src/
 ## 🧪 Testing
 
 Run the test suite:
+
 ```bash
 npm test
 ```
 
 The tests cover:
+
 - Ship creation and health management
 - Gameboard ship placement and validation
 - Player attack mechanics
@@ -89,18 +102,21 @@ The tests cover:
 ## 🎨 Technical Features
 
 ### Drag and Drop Implementation
+
 - Custom drag and drop system for ship placement
 - Visual feedback with preview outlines
 - Collision detection and boundary checking
 - Smooth animations and transitions
 
 ### Game Logic
+
 - Turn-based gameplay system
 - Intelligent computer AI with targeting algorithms
 - Proper game state management
 - Win/lose condition detection
 
 ### UI/UX Design
+
 - Responsive design that works on different screen sizes
 - Modern glassmorphism design with backdrop filters
 - Smooth animations and hover effects
@@ -109,12 +125,14 @@ The tests cover:
 ## 🔧 Development
 
 ### Adding New Features
+
 1. Follow the existing code structure
 2. Add appropriate tests for new functionality
 3. Update the README if needed
 4. Ensure the UI remains responsive and accessible
 
 ### Code Style
+
 - Use ES6+ features
 - Follow consistent naming conventions
 - Add comments for complex logic
